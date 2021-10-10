@@ -1,0 +1,16 @@
+command word: sandbox
+
+I stuck this into my .bashrc
+
+alias sandbox='mkdir -p sandbox/css ; 
+cd sandbox ; mkdir images scripts ; 
+touch index.html ;
+cd ../../../var/www/images ;
+cp logo1.png ../../../home/t.werden/sandbox/images ;
+cp logo2.png ../../../home/t.werden/sandbox/images ;
+cd ../../../home/t.werden/sandbox ;
+ls -a >> web-listing  ;
+cd ../../../var/www/images ; ls *.png >> ../../../home/t.werden/sandbox/avail-images ;
+cd ../../../home/t.werden/sandbox '
+
+

@@ -1,0 +1,12 @@
+Hi! So, here's an explanation of what it is that I did for the proof session:
+
+1. logged in
+2. removed sandbox folder from last test run
+3. opened .bashrc to pull the commands I dropped in there (listed in sandboxcommand.txt)
+4. ran sandbox command
+5. failed to put space in to list directory
+6. worked on a second try
+7. opened image folder to show copied files
+8. opened avail-images and web-listing in vim to show output
+
+have fun grading!
